@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aef49bfd-99df-4a00-9acc-f40918d71ae7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,8 +98,8 @@
         <option value="$PROJECT_DIR$/reactjs-frontend/src/App.css" />
         <option value="$PROJECT_DIR$/reactjs-frontend/src/App.js" />
         <option value="$PROJECT_DIR$/reactjs-frontend/.gitignore" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/server/.gitignore" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -184,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561002487523</updated>
       <workItem from="1561002491012" duration="2313000" />
-      <workItem from="1561007149079" duration="347000" />
+      <workItem from="1561007149079" duration="376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2660000" />
+    <option name="totallyTimeSpent" value="2689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="691" y="23" width="989" height="939" extended-state="0" />
@@ -296,13 +304,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reactjs-frontend/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -314,6 +315,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
