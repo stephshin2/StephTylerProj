@@ -10,3 +10,5 @@ Icon?
 *.gz
 
 .idea/
+
+package-lock.json
