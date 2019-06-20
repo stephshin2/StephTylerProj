@@ -13,12 +13,10 @@ function App() {
       </header>
 
 
-
-
-          <div className="countdown">
-              <h5> How long until we see each other again! </h5>
-              <CountdownClock/>
-          </div>
+      <div className="countdown">
+          <h5> How long until we see each other again! </h5>
+          <CountdownClock/>
+      </div>
 
 
 
