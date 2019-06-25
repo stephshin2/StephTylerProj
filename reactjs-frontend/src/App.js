@@ -1,9 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-
+import ReactDOM from 'react-dom';
+import Button from 'react-bootstrap/Button'
 import CountdownClock from './CountdownClock';
-
+import querystring from "querystring";
 import './App.css';
+
+import './spotify'
+import Spotify from "./spotify"
+
+
+var request = require('request')
 
 function App() {
   return (
@@ -20,6 +27,7 @@ function App() {
               <CountdownClock/>
           </div>
 
+          <Spotify/>
 
 
     </div>
