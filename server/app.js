@@ -52,33 +52,6 @@ app.get('/status', function (req, res) {
 	res.send("app is running")
 });
 
-app.get('/', function(req, res){
-    var code = req.query.code || null
-    var authOptions = {
-        code: code,
-        url: 'https://accounts.spotify.com/api/token',
-        form: {
-            redirect_uri: `${back_url}/callback`,
-            grant_type: 'authorization_code'
-        },
-        headers: {
-            'Authorization': 'Basic ' + (new Buffer('682367fe3a8a41a0b81f34dc5c6fe936' + ':' + '96b5123b508a42f4b450b9b600341ab6').toString('base64'))
-        },
-        json: true
-    };
-
-    request.post(authOptions, function(error, response, body) {
-        let refresh_token = '';
-        if (!error && response.statusCode === 200) {
-            refresh_token = body.refresh_token;
-        } else {
-            refresh_token = "invalid refresh token";
-        }
-        res.redirect(`${front_url}/plan-trip?refresh_token=${refresh_token}`)
-    });
-
-})
-
 app.get('/callback', function(req, res){
   var code = req.query.code || null
   var authOptions = {
