@@ -36,10 +36,17 @@ export class Spotify extends React.Component {
                 response_type: 'code',
                 client_id: spotifyClientId,
                 scope,
-                redirect_uri: `https://localhost:8888/callback` ,
+                redirect_uri: `http://localhost:8888/callback` ,
                 state})
             })}`, '_self');
     }
+    // componentDidMount(){
+    //     const parsedUrl = querystring.parse(this.props.location);
+    //     const queryRefreshToken = parsedUrl['?refresh_token'];
+    //     if (queryRefreshToken !== undefined) {
+    //         this.setState({'refreshToken':queryRefreshToken});
+    //     }
+    // }
     render() {
        return (
            <div>
